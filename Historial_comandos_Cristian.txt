@@ -1,0 +1,78 @@
+ls
+whoami
+vagrant status
+status
+pwd
+echo "hola"
+echo $HOME
+ls
+cd repogit/
+ls
+cd ..
+pwd
+ssh-keygen -t ed25516
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh/
+ls
+ls -l
+cat id_ed25519.pub 
+cd ..
+ls -l
+cd repogit/
+ls -l
+pwd
+git clone git@github.com:valverdecristian/repo_valverde.git
+ls
+ls -l
+cd repo_valverde/
+echo "hola"
+echo "hola" > hola.txt
+ls -l
+git status
+git add .
+git status
+git commit -m "1er commit"
+git config --global user.email "crizthian2010@gmail.com"
+git config --global user.name "valverdecristian"
+git status
+git commit -m "1er commit"
+git push
+git status
+cat /etc/passwd
+head /etc/passwd
+vagrant halt
+cd ..
+vagrant halt
+exit
+pwd
+cd repogit/
+cd TP_AySO/
+git status
+git add .
+git config --global user.email "crizthian2010@gmail.com"
+git config --global user.name "valverdecristian"
+git comit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" head -n 1
+grep "model name"
+cd repogit/
+cd TP_AySO/
+echo "Comando para capturar trafico de red: tcpdump" > comando_dump_net
+echo "Comando utilizado para buscar la informacion: man tcpdump" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el trafico de red"
+git push
+cat <<EOF >> README.md
+Alumno: <Cristian>
+División: <311>
+Turno: <noche>
+EOF
+
+git add README.md
+git commit -m "docs: Informacion del alumno añadida"
+git push
+history -a
